@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Tinos&display=swap" rel="stylesheet">
+    <title>{% block title %}Landing{% endblock %}</title>
+</head>
+<body>
+    {% include "landing/template/header.html" %}
+
+    {% block content %}
+        <div class="cards">
+            <div class="container">
+                <div class="cards-holder">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="card-img" src="../static/img/mask.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            Магическая <span>Атмосфера</span>
+                        </div>
+                        <div class="card-desc">
+                            В нашем заведении царит магическая атмосфера
+                            наполненная вкусными ароматами
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="card-img" src="../static/img/mask.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            Лучшее качество <span>Еды</span>
+                        </div>
+                        <div class="card-desc">
+                            Качество нашей
+                            Еды - отменное!
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="card-img" src="../static/img/mask.png" alt="">
+                        </div>
+                        <div class="card-title">
+                            Недорогая <span>Еда</span>
+                        </div>
+                        <div class="card-desc">
+                            Стоимость нашей Еды<br>
+                            зависит только от ее
+                            количества. Качество<br>
+                            всегда на высоте!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+
+    {% include "landing/template/footer.html" %}
+</body>
+</html>
