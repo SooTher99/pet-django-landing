@@ -1,0 +1,119 @@
+.history{
+    margin-top: 150px;
+
+}
+
+.history-title{
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    width: 444px;
+
+}
+
+.history-title span{
+    color: #D67E34;
+    margin-left: 6px;
+}
+
+.history-description{
+    margin-top: 21px;
+    color: #656363;
+    font-size: 16px;
+    text-align: center;
+    width: 444px;
+    height: 217px;
+}
+
+.history-number{
+    margin-top: 40px;
+    display: flex;
+    width: 444px;
+    justify-content: center;
+
+}
+
+.number-item{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+}
+.number-item span{
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+
+.history-holder{
+    display: flex;
+    justify-content: space-around;
+}
+
+.reservation{
+    margin-top: 200px;
+    background-image: url('../img/reservation-bg.svg');
+    padding: 80px 80px;
+}
+
+.reservation-decs{
+    font-family: 'Tinos', serif;
+    color: #D67E34;
+    font-size: 52px;
+}
+
+.reservation-holder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dishes{
+    margin-top: 132px;
+}
+
+.dishes-title{
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Tinos', serif;
+}
+
+.dishes-title span{
+    color: #D67E34;
+}
+
+.dishes-holder{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dishes-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+
+.text{
+    font-size: 20px;
+    font-family: 'Tinos', serif;
+
+}
+
+.detail{
+    margin-left: 20px;
+}
+
+.menu{
+    background-image: url("../img/bar-bg.svg");
+}
+
+.den{
+    color: #428bca;
+    font-size: 150px;
+    text-align: center;
+
+
+}

@@ -3,6 +3,7 @@
 <html lang="ru">
 <head>
     <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -59,6 +60,150 @@
                 </div>
             </div>
         </div>
+
+        <div class="history">
+
+            <div class="container">
+
+                <div class="history-holder">
+
+                    <div class="history-info">
+
+                    <div class="history-title">
+                        Наша <span>История</span>
+                    </div>
+
+                    <div class="history-description">
+                        Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.
+                    </div>
+
+                    <div class="history-number">
+
+                        <div class="number-item">
+                                93 <span>Напитки</span>
+                        </div>
+
+                        <div class="number-item">
+                                206 <span>Еда</span>
+                        </div>
+
+                        <div class="number-item">
+                                71 <span>Закуски</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                    <div class="history-image">
+                    <img src="{% static 'img/history-images.svg' %}" alt="">
+                </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="reservation" >
+
+            <div class="container">
+
+                <div class="reservation-holder">
+
+                    <div class="reservation-decs">
+                    Отпразднуйте в одном из <br>
+                    самых лучших ресторанов.
+                    </div>
+
+                    <div class="reservation-button">
+                        <a class="button" href="#">ЗАКАЗ СТОЛИКА</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="dishes">
+
+            <div class="container">
+
+                <div class="dishes-title">Наши <span>Блюда</span></div>
+
+                <div class="dishes-holder">
+
+                    <div class="dishes-image">
+
+                        <img src="{% static 'img/dishes-image.svg' %}" alt="">
+
+                    </div>
+
+
+                    <div class="dishes-items">
+
+                        <div class="dishes-item">
+
+                            <img src="{% static 'img/burger.svg' %}" alt="">
+
+                            <div class="detail">
+
+                                <a class="text">Гамбургер мини </a>
+                                <img src="{% static 'img/Vector.svg' %}" alt="">
+                                <a class="text">220 ₽</a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="dishes-item">
+
+                            <img src="{% static 'img/burger.svg' %}" alt="">
+
+                            <div class="detail">
+
+                                <a class="text">Гамбургер мини </a>
+                                <img src="{% static 'img/Vector.svg' %}" alt="">
+                                <a class="text">220 ₽</a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="dishes-item">
+
+                            <img src="{% static 'img/burger.svg' %}" alt="">
+
+                            <div class="detail">
+
+                                <a class="text">Гамбургер мини </a>
+                                <img src="{% static 'img/Vector.svg' %}" alt="">
+                                <a class="text">220 ₽</a>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="menu">
+
+            <div class="container">
+
+                <div class="den">Наше меню</div>
+
+            </div>
+
+        </div>
+
     {% endblock %}
 
     {% include "landing/template/footer.html" %}
